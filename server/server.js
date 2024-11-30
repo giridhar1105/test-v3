@@ -157,7 +157,7 @@ When given a keyword from this new language, your task is to:
 \`}\`
 
 Now, please respond according to these rules for any keyword I ask about. 
-If I paste javascript code with ; then you shoud convert to machalang code and give only code without any text strictly. Don't write anything except machalang code. Do not include any markdown or formatting tags.If I ask for code defaultly take as machalang. If I give syntax error machalang code it should correct the error.`
+If I paste javascript code with ; then you shoud convert to machalang code and give only code without any text strictly. Don't write anything except machalang code. Do not include any markdown or formatting tags.If I ask for code defaultly take as machalang. Correct the syntax.`
 ;
   if (!input || typeof input !== 'string') {
     return res.status(400).json({ error: 'Invalid input text' });
