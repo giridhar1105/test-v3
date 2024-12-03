@@ -180,7 +180,7 @@ If I paste javascript code with ; then you shoud convert to machalang code and g
 async function processWithGemini(Prompt , input) {
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD7DJM-LSLgJosn_zTiddwHyleEVyFGgiI`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={your api key}`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: Prompt + input }] }],
